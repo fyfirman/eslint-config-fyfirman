@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-fyfirman",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fyfirman/eslint-config-fyfirman.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "prettier"
+  ],
+  "author": "fyfirman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fyfirman/eslint-config-fyfirman/issues"
+  },
+  "homepage": "https://github.com/fyfirman/eslint-config-fyfirman#readme"
+}
