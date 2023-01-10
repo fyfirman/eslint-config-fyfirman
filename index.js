@@ -6,7 +6,6 @@
  */
 module.exports = {
   "extends": [
-    "plugin:prettier/recommended",
     "prettier",
     "kentcdodds",
     "kentcdodds/react",
