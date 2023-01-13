@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fyfirman",
-  "version": "0.2.0-alpha",
+  "version": "0.2.0",
   "description": "ESLint configuration for my own project",
   "main": "index.js",
   "scripts": {
