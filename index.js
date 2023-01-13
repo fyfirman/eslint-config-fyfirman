@@ -10,7 +10,6 @@ module.exports = {
     "kentcdodds",
     "kentcdodds/react",
     "kentcdodds/jsx-a11y",
-    "plugin:@next/next/recommended",
     "plugin:import/recommended",
     "plugin:import/typescript"
   ],
@@ -43,7 +42,6 @@ module.exports = {
     "@babel/no-unused-expressions": "off",
     "no-negated-condition": "off",
     "no-console": "warn",
-    "@next/next/no-img-element": "off",
     "@typescript-eslint/prefer-nullish-coalescing": "off",
     "@typescript-eslint/no-empty-interface": "off",
     "@typescript-eslint/no-var-requires": "off",
