@@ -40,6 +40,12 @@ npm install --save-dev eslint-config-fyfirman
 
 This library has a required `peerDependencies` listing for [`eslint`][eslint]
 
+You should also install those library to resolve Typescript import:
+
+```
+npm install --save-dev eslint-import-resolver-typescript
+```
+
 ## Usage
 
 Then add the extends to your `.eslintrc.js`:
@@ -53,6 +59,15 @@ module.exports = {
 }
 ```
 
+It is recommended to put the command in your package.json:
+```
+{
+  "scripts": {
+    "lint": "eslint \"**/*.{ts,tsx}\" --no-error-on-unmatched-pattern",
+    "lint:fix": "eslint \"**/*.{ts,tsx}\" --no-error-on-unmatched-pattern --fix"
+  },
+}
+```
 
 ## Issues
 
