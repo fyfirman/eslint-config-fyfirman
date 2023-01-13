@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fyfirman",
-  "version": "0.1.0",
+  "version": "0.2.0-alpha",
   "description": "ESLint configuration for my own project",
   "main": "index.js",
   "scripts": {
@@ -22,11 +22,14 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.1",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-testing-library": "^5.6.0"
+    "eslint-plugin-testing-library": "^5.6.0",
+    "prettier": "^2.8.2"
   },
   "devDependencies": {
+    "@types/react": "^18.0.26",
     "eslint": "^8.23.0",
-    "prettier": "2.7.1"
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "react": "^18.2.0"
   },
   "keywords": [
     "eslint",
